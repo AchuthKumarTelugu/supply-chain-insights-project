@@ -1,0 +1,8 @@
+🔷 Situation:
+AtliQ Mart, a growing FMCG manufacturer based in Gujarat, faced customer retention issues as several key clients chose not to renew their contracts. It was suspected that consistent delays and incomplete deliveries led to poor customer service, threatening future expansion plans to metro and Tier 1 cities.
+
+🔷 Task:
+As a newly onboarded data analyst in the Supply Chain Analytics team, I was tasked with developing a comprehensive dashboard to monitor delivery performance and ensure quick identification of service-level gaps.
+
+🔷 Action:
+I used Power BI to design and build a dynamic dashboard that tracked service level KPIs such as On-Time Delivery (OT %), In-Full Delivery (IF %), and On-Time In-Full (OTIF %) across cities and customers. I incorporated slicers for flexible filtering, KPI target comparisons, LIFR and VOFR metrics, heatmaps, sparkline trendlines, dynamic charts, and visibility controls. The data model was structured using a star schema to ensure optimal performance and scalability.
