@@ -1,8 +1,37 @@
-🔷 Situation:
-AtliQ Mart, a growing FMCG manufacturer based in Gujarat, faced customer retention issues as several key clients chose not to renew their contracts. It was suspected that consistent delays and incomplete deliveries led to poor customer service, threatening future expansion plans to metro and Tier 1 cities.
+ S – Situation 
+🧠
+“AtliQ Mart was facing a critical challenge — several key customers were not renewing their contracts, and the management suspected this was due to poor delivery service. There were complaints about late deliveries and incomplete orders, but there was no clear data to confirm or address the issue. The company wanted to resolve this before expanding into Tier 1 cities.”
 
-🔷 Task:
-As a newly onboarded data analyst in the Supply Chain Analytics team, I was tasked with developing a comprehensive dashboard to monitor delivery performance and ensure quick identification of service-level gaps.
+🟨 T – Task 
+🎯
+“My role as a data analyst was to uncover the root causes behind service issues using real operational data. The goal was to build an end-to-end Power BI dashboard that could monitor delivery KPIs like On-Time %, In-Full %, and OTIF %, and help the business take fast corrective action.”
 
-🔷 Action:
-I used Power BI to design and build a dynamic dashboard that tracked service level KPIs such as On-Time Delivery (OT %), In-Full Delivery (IF %), and On-Time In-Full (OTIF %) across cities and customers. I incorporated slicers for flexible filtering, KPI target comparisons, LIFR and VOFR metrics, heatmaps, sparkline trendlines, dynamic charts, and visibility controls. The data model was structured using a star schema to ensure optimal performance and scalability.
+🟩 A – Action 
+🛠
+“I designed a fully interactive Power BI dashboard using 6 connected datasets, modeled with a star schema. The dashboard includes:
+
+📊 KPI Cards for tracking Total Orders, OT %, IF %, OTIF % and their variance from targets
+
+📈 Trend analysis using drilldowns from month to day
+
+📍 Heatmaps to compare service levels by customer and city
+
+📉 Line Item Fill Rate (LIFR) and Volume Fill Rate (VOFR) visualized over time
+
+🧱 Ribbon charts to evaluate performance across product categories and locations
+
+⏱️ Lead time and delay analysis to identify bottlenecks in the supply chain
+
+I also created custom DAX measures, conditional formatting, and slicers for dynamic KPI selection.”
+
+🟥 R – Result 
+📈
+“The dashboard revealed that:
+
+Only 29% of orders were delivered both on time and in full — far below the 65% target
+
+LIFR was just 65%, indicating that most customers received incomplete orders
+
+Major clients like Rel Fresh, Cool Blue, and Lotus Mart had OTIF < 25% and were likely to cancel contracts
+
+Although VOFR was high (~96%), it gave a false sense of reliability — because customers care more about exact items than volume
