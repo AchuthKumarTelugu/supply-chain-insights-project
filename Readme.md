@@ -29,7 +29,7 @@ AtliQ Mart observed that several key customers didn’t renew their contracts, l
 
 ## 📈 Dashboard Overview
 
-![Dashboard Overview](images/supply chain insights-1.png)
+![Dashboard Overview](images/supply_chain_insights_1.png)
 
 ---
 
